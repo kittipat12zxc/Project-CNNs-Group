@@ -22,3 +22,7 @@
 [ต้มยำ](https://www.kaggle.com/datasets/sorawitsinlapanurak/top-10-best-rated-thai-food)
 [แกงเขียวหวาน1](https://www.kaggle.com/datasets/sorawitsinlapanurak/top-10-best-rated-thai-food/data)
 [แกงเขียวหวาน2](https://universe.roboflow.com/food-buddy/thai-food-csvmo)
+[แกงมัสมัน1](https://universe.roboflow.com/food-zndig/chicken-curry-iv85w)
+[แกงมัสมัน2](https://universe.roboflow.com/james-vv9va/curry-cimej)
+[ข้าวซอย1](https://universe.roboflow.com/test-xszsk/khao-soi)
+[ข้าวซอย2](https://universe.roboflow.com/projectwachi/khao-soi-qdige)
