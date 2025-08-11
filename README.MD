@@ -27,7 +27,7 @@ pandas>=1.3.0
 
 วิธีติดตั้ง :
 
-    py -m pip install requirements.txt
+    py -m pip install -r requirements.txt
 
 ติดตั้งผ่านไฟล์ .venv
 
