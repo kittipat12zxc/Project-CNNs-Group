@@ -32,7 +32,7 @@ pandas>=1.3.0
 ติดตั้งผ่านไฟล์ .venv
 
 ## Preparation
-ส่วนเตรียมข้อมูล(แต่ละคน)
+ส่วนเตรียมข้อมูล(แต่ละคน)("C:\Users\pop43\OneDrive\รูปภาพ\Screenshots\Screenshot 2025-08-13 165050.png")
 
 ## Model-test
 ส่วนของโมเดล(แต่ละคน)
