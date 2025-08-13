@@ -16,7 +16,7 @@
 - ต้มยำ  
 
 Dataset นี้ใช้สำหรับการ **Training** และ **Testing** โมเดล
-
+![data]("D:\Github\งานกลุ่มจารืยเเนน\Project-CNNs-Group\images\Screenshot 2025-08-13 165050.png")
 
 ---
 
