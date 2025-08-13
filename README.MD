@@ -48,7 +48,7 @@ pandas>=1.3.0
 
 ## Model-test
 ส่วนของโมเดล(แต่ละคน)
-3. อธิบาย Model ที่เลือกใช้
+อธิบาย Model ที่เลือกใช้
 Model ที่เลือกใช้ โมเดล ResNet18 จาก PyTorch และ โมเดลสำเร็จรูป ResNet18 จากtorchvision ResNet18 จาก PyTorch เป็นโมเดลที่เราสามารถ Custom layer ในแบบของเราเองได้ส่วน โมเดลสำเร็จรูป สามารถเลือกโหลด weight ที่ฝึกมาแล้วหรือไม่ก็ได้และสามารถเลือก fine-tune หรือไม่ก็ได้
 
 resnet18_torchvision.py :
