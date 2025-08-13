@@ -11,8 +11,7 @@ import matplotlib.pyplot as plt
 
 
 # อุปกรณ์ที่ใช้ประมวลผล (GPU)
-device = torch.device("cuda" if torch.c
-uda.is_available() else "cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # path ของ train and test
