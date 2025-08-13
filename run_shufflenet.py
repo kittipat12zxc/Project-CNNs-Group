@@ -13,7 +13,7 @@ from TrainAndTest import train_one_epoch, eval_one_epoch
 
 def main():
     # อุปกรณ์ที่ใช้ประมวลผล (GPU)
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}")
 
     # path ของ train and test
