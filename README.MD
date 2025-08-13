@@ -89,7 +89,7 @@ if __name__ == "__main__":
     print(f"{total_trainable_params:,} training parameters.")
 
 utils.py :
-
+# u
 import matplotlib.pyplot as plt
 import os
 
