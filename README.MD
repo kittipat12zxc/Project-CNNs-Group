@@ -152,10 +152,10 @@ def save_plots(train_acc, valid_acc, train_loss, valid_loss, name=None):
     plt.legend()
     plt.savefig(os.path.join("outputs", name + "_loss.png"))
 
-training_utils.py :
+ training_utils.py :
 
-import torch
-from tqdm import tqdm
+ import torch
+ from tqdm import tqdm
 
 # Training function.
 def train(model, trainloader, optimizer, criterion, device):
@@ -191,7 +191,7 @@ def train(model, trainloader, optimizer, criterion, device):
 
 
 # Validation function.
-def validate(model, testloader, criterion, device):
+ def validate(model, testloader, criterion, device):
     model.eval()
     print("Validation")
     valid_running_loss = 0.0
@@ -405,7 +405,7 @@ def main():
         acc = 100.0 * corr / tot if tot > 0 else 0.0
         print(f" - {cname}: {acc:.2f}%  ({corr}/{tot})")
 
-if __name__ == '__main__':
+ if __name__ == '__main__':
     main()
 
 ## เพิ่มเติม
