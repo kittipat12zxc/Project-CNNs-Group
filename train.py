@@ -32,7 +32,7 @@ random.seed(seed)
 # Learning and training parameters.
 epochs = 25 # 25จำนวนรอบการฝึกโมเดล 
 batch_size = 64 #64 ยิ่งมากยิ่งช้า
-learning_rate = 0.003 #0.002 ความถี่ในการเรียนรู้ ยิ่งน้อยยิ่งช้า
+learning_rate = 0.002 #0.002 ความถี่ในการเรียนรู้ ยิ่งน้อยยิ่งช้า
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 #ดึง data loader จาก utils.py
