@@ -33,7 +33,7 @@ pandas>=1.3.0
 
 ## Preparation
 ส่วนเตรียมข้อมูล(แต่ละคน)
-
+!![alt text](image.png)
 
 ## Evaluation
 ส่วนประเมินโมเดล(แต่ละคน)
