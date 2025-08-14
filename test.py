@@ -7,18 +7,19 @@ from collections import defaultdict
 def main():
     test_dir = "data/Testing"
     model_path = "resnet_torchvision.pth" # Path to the trained model weights
-    batch_size = 32
+    batch_size = 64
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     class_names = [
         "Green_Curry",
-        "Khao_phat",
+        "Khao_Phat",
         "Khao_Soi",
         "Massaman_Curry",
         "Pad_Krapraw",
         "Pad_Thai",
-        "SomTum",
-        "Tom_yum"
+        "Som_Tum",
+        "Tom_Yum"
+       
     ]
     num_classes = len(class_names)
 
