@@ -639,7 +639,7 @@ if __name__ == '__main__':
 Traning acc: 98.153 Validation acc:97.603 Training loss:0.103 Validation loss: 0.098
 
 # กราฟ
-![alt text](image-6.png)
+![alt text](image-20.png)
 
 การวิเคราะห์กราฟ
 กราฟค่าAccuracy เพิ่มขึ้นทั้งเส้น (train accuracy) และเส้น (validation accuracy) มีแนวโน้มเพิ่มขึ้นอย่างต่อเนื่อง แสดงให้เห็นว่าประสิทธิภาพของโมเดลดีขึ้นเรื่อยๆ
