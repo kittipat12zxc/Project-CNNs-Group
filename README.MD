@@ -547,7 +547,7 @@ from collections import defaultdict
 def main():
     test_dir = "data/Testing"
     model_path = "resnet_torchvision.pth" # Path to the trained model weights
-    batch_size = 32
+    batch_size = 64
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     class_names = [
