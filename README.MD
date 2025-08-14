@@ -27,9 +27,13 @@ pandas>=1.3.0
 
 วิธีติดตั้ง :
 
-    py -m pip install requirements.txt
+    python -m venv .venv
+    .venv\Scripts\activate.bat
+    pip install ipykernel
+    python -m ipykernel install --user --name=.venv --display-name "Python (.venv)"
+    py -m pip install -r requirements.txt
 
-ติดตั้งผ่านไฟล์ .venv
+ติดตั้งผ่านไฟล์ .venv และไปเปลียน kernal (python .venv)
 
 ## Preparation
 ส่วนเตรียมข้อมูล(แต่ละคน)
