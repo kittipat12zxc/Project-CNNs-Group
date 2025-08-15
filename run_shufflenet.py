@@ -51,17 +51,19 @@ def main():
     # path ของ train and test
     train_dir = "data/Training"
     test_dir = "data/Testing"
-    classes = ["Green_Curry", "Khao_phat", "Khao_Soi", "Massaman_Curry",
-           "Pad_Krapraw", "Pad_Thai", "SomTum", "Tom_yum"]
+    # classes = ["Green_Curry", "Khao_phat", "Khao_Soi", "Massaman_Curry",    -----------  OLD
+    #       "Pad_Krapraw", "Pad_Thai", "SomTum", "Tom_yum"]
+    classes = [ "Tom_yum", "SomTum", "Pad_Thai", "Pad_Krapraw", "Massaman_Curry",  # ----  NEW ทำการสลับตำแหน่งของคลาส
+            "Khao_Soi", "Khao_phat", "Green_Curry"]
 
     train_loader, test_loader = get_dataloaders(train_dir, test_dir)
 
 # --- 4. สร้างโมเดล Loss function + Optimizer (มาปรับจูนโมเดลตรงนี้นะ)
     model = get_model(num_classes=8).to(device)
-    criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(model.parameters(), lr=0.0005)
+    criterion = nn.CrossEntropyLoss()                      # ใช้ CrossEntropyLoss
+    optimizer = optim.Adam(model.parameters(), lr=0.0005)  # ใช้ Adam optimizer
     scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.5)
-    scheduler.step() # โมเดลจะ fine-tune น้ำหนักได้ดีขึ้น
+    scheduler.step()                                       # ลดค่า lr ทุก 10 รอบ (step_size=10)
 
 # --- 5. Train + Test แต่ละ epoch
     epochs = 25                    # จำนวนการรันปายยย
