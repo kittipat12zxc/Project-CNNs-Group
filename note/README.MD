@@ -48,6 +48,7 @@ Tom_yum train 402 test 110
     vali_accuracy: 0.5451<br>
     vali_loss: 2.9531<br>
 ![alt text](image.png)
+ระยะเวลาในการเทรน 1 hr 17 min 30 sec
 
 ## อธิบายปัญหา/อุปสรรค และข้อเสนอแนะ
 ### ปัญหา
