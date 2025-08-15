@@ -1,7 +1,7 @@
 # NOTE
 
 ## Dataset ที่ใช้
-8 class
+8 class<br>
 Green_Curry train 400 test 100<br>
 Khao_phat train 394 test 110<br>
 Khao_Soi  train 400 test 100<br>
